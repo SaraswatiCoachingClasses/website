@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #e5e5e5;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    display: flex;
+}
+
+i {
+    border: 0px;
+    font-size: xx-large;
+    color: #5a4bda;
+}
+
+.border :hover {
+    border: 1px solid rgb(90 75 218);
+    align-items: center;
+}
+
+.course {
+    display: flex;
+    align-items: center;
+
+}
+
+p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #5a4bda;
+}
+
+img {
+    height: 55px;
+    width: 55px;
+    align-items: center;
+}
+
+#Home {
+    p {
+        color: black;
+        font-weight: 380;
+        font-size: large;
+    }
+}
+
+#Results {
+    p {
+        color: black;
+        font-size: large;
+        font-weight: 380;
+    }
+}
+
+#admissions {
+    p {
+        color: black;
+        font-size: large;
+        font-weight: 380;
+    }
+}
+
+#login {
+    width: 120px;
+    height: 45px;
+    background-color: #5a4bda;
+    border-radius: 10px;
+    justify-items: center;
+    align-content: center;
+
+    p {
+        color: white;
+        font-weight: 700;
+    }
+}
+
+.video-container {
+    width: 1510px;
+    height: 430px;
+}
+
+#img {
+    background-color: azure;
+    height: 400px;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+
+    #about {
+        display: block;
+        align-items: center;
+        width: 50%;
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: normal;
+            color: #14213d;
+            font-size: x-large;
+            text-align: justify;
+            margin-left: 80px;
+            margin-right: 70px;
+            margin-bottom: 30px;
+            justify-content: center;
+        }
+
+        #start {
+            width: 220px;
+            height: 70px;
+            background-color: #5a4bda;
+            align-content: center;
+            border-radius: 10px;
+            margin-left: 250px;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: xx-large;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 25px;
+            }
+        }
+    }
+}
+
+#tag {
+    width: 50%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        font-size: 50;
+        text-shadow: #14213d;
+        font-weight: 900;
+        color: #1d3557;
+        justify-items: center;
+        margin-left: 70px;
+    }
+}
+
+.main {
+    font-weight: 800;
+    font-size: 100px;
+    color: #5a4bda;
+}
+
+#first{
+   justify-content: space-evenly;
+   padding-top : 20px;
+   padding-bottom : 10px;
+   padding-left: 20px ;
+   padding-right: 20px ;
+   height: 220px;  
+   display: flex;
+}
+
+.one{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    background-color: #124559;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+   align-content: center;
+   p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+    font-size: xx-large;
+    color: azure;
+   }
+}
+.two{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    background-color: #001d3d;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    align-content: center;
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        font-size: xx-large;
+        color: azure;
+       }
+}
+.five{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    margin-right: 20px;
+    background-color: #01161e;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        font-size: xx-large;
+        color: azure;
+       }
+}
+
+.three{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    background-color: #598392;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        font-size: xx-large;
+        color: azure;
+       }
+}
+.four{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    background-color: #003566;
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        font-size: xx-large;
+        color: azure;
+       }
+}
+
+.six{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    background-color: #003566;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        font-size: xx-large;
+        color: azure;
+       }
+}
+
+ /* Keyframes for float animation */
+ @keyframes float {
+    0% {
+      transform: translateY(0); /* Initial position */
+    }
+    50% {
+      transform: translateY(10px); /* Move horizontal */
+    }
+    100% {
+      transform: translateY(0); /* Back to initial position */
+    }
+  }
+  /* Keyframes for float animation */
+ @keyframes float2 {
+    0% {
+      transform: translateY(0); /* Initial position */
+    }
+    50% {
+      transform: translateY(10px); /* Move horizontal */
+    }
+    100% {
+      transform: translateY(0); /* Back to initial position */
+    }
+  }
+
+   /* Applying the animation */
+    .one{
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 0s;
+  }
+  .two{
+    animation: float 3s ease-in-out infinite;
+    animation-delay:0.5s ;
+  }
+  .three{
+    animation: float2 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+  }
+  .four{
+    animation: float2 3s ease-in-out infinite;
+    animation: delay 2s; ;
+  }
+  .five{
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1s;
+  }
+  .six{
+    animation: float2 3s ease-in-out infinite;
+    animation-delay: 2.5s;
+  }
+
+.utube{
+    margin-top: 10px;
+    height: 430px;
+    display: flex;
+     iframe{
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+}
+#saloni {
+      height: 430px;
+        width: 800px;;
+        background-color: #598392;
+       display: flex;
+       overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    #sir{
+        height: 430px;
+        width: 800px;
+        background-color: cadetblue;
+       display: flex;
+       overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+
